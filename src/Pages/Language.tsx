@@ -77,7 +77,7 @@ export default function Language(props: WordProps) {
                     <h2>{seconds} seconds</h2>
                     {seconds === 0 && <p>Time's up!</p>}
                   </div>
-
+                  
                             <p className='russian-word'>{Word[num].rus}</p>
                             <p className='english-word'>{Word[num].eng}</p>
                            <p className='armenian-word'>{Word[num].arm}</p>

@@ -1,13 +1,147 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: rgb(236, 148, 86);
+  font-family: "Vollkorn", serif;
+}
+
+html {
+  height: 100%;
+}
+
+.home-h1 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.home-block-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 90px;
+}
+
+.home-button {
+  font-family: "Vollkorn", serif;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.lang-question-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 171px;
+}
+
+.pic-question {
+  width: 100px;
+  height: 100px;
+}
+
+.bar-block-but {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.bar-block-but-no {
+  background-color: red;
+  border-color: red;
+  color: white;
+  padding: 2px;
+}
+
+.bar-block-but-yes {
+  background-color: green;
+  border-color: green;
+  color: white;
+  padding: 2px;
+}
+
+.container-num {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%; 
+}
+
+.num-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dontcors-block {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  text-align: center;
+  border-radius: 50%;
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 0%;
+}
+
+.cours-block {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  text-align: center;
+  border-radius: 50%;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 0%;
+}
+
+.button-start {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  height: 21px;
+  width: 55px;
+}
+
+.button-back {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  height: 21px;
+  width: 55px;
+  margin-top: 7px;
+}
+
+.nul-but {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  height: 21px;
+  width: 55px;
+  margin-top: 7px;
+}
+
+.answ-num {
+  margin-top: 27px;
+  font-size: 40px;
+  color: black;
+  font-family: "Vollkorn", serif;
+}
+
+.nav-button-num {
+  display: flex;
+  flex-direction: column;
+}
+
+.lang-timer-block {
+  margin-bottom: 15px;
+}
+
+.home-block-text {
+  width: 280px;
+  text-align: center;
 }

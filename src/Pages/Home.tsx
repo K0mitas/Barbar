@@ -15,7 +15,7 @@ export default function Home() {
                 Желаю удачной игры!</p>
 
                 <NavLink to="/language">
-                   <button className='home-button'>Вместе</button>
+                   <button className='home-button'>Вдвоём</button>
                 </NavLink>
 
             </div>
